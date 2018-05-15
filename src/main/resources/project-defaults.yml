@@ -1,0 +1,8 @@
+swarm:
+  datasources:
+    data-sources:
+      CustomerDS:
+        driver-name: postgresql
+        connection-url: jdbc:postgresql://customer-postgresql:5432/customerdb
+        user-name: jboss
+        password: jboss
